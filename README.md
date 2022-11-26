@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +13,7 @@
       padding: 0;
     }
     .navbar{
-        background-color: slategray;
+        background-color:slategray;
         position: sticky;
         position: -webkit-sticky;
         top:0px;
@@ -147,7 +146,7 @@
     }
     .saad{
       display: inline-block;
-      background-color: black;
+      background-color: blue;
       width: 100%;
     }
     .list{
@@ -155,7 +154,7 @@
     }
     .m1{
       display: inline-block;
-      margin-left: 80px;
+      margin-left: 10px;
       margin-right: 80px;
       margin-top: 20px;
       font-size: 20px;
@@ -184,7 +183,7 @@
       border-radius: 25px;
       height: auto;
       margin-top: 30px;
-      margin-left: 470px;
+      margin-left: 450px;
       padding-left: 10px;
      
       background-color: white;
@@ -203,28 +202,19 @@
               background-color: slategray;
             }
             .gallery1{
-                color: white;
+                color: black;
                 text-decoration: none;
-                font-size: 30px;
-                font-style: italic;
-                background-color: black;
             }
             .gallery2{
-                color: white;
+                color: hotpink;
                 text-decoration: none;
-                font-size: 30px;
-                font-style: italic;
-                background-color: black;
             }
             .gallery1:hover{
                 color: blue;
             }
             .gallery2:hover{
                 color: blue;
-              }
-            .carouselslide{
-                margin-top: 0;
-            }  
+            }
    
 
     
@@ -236,7 +226,7 @@
 
     <nav class="navbar sticky-top navbar-expand-lg ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="WhatsApp Image 2022-11-21 at 7.21.57 PM.jpeg" alt="" width="50" height="40">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="50" height="40">
             ShopE</a>
          
           
@@ -247,7 +237,7 @@
             </form>
             <ul class="navbar-nav m-lg-left">
                 <li class="nav-item ">
-                  <a class="nav-link active" aria-current="page" href="http://127.0.0.1:8000">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
              
                 <li class="nav-item dropdown">
@@ -262,10 +252,10 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://127.0.0.1:8000/about" target="_new">About us</a>
+                  <a class="nav-link" href="aboutus.html" target="_new">About us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://127.0.0.1:8000/signup" target="_new"> Sign Up</a>
+                  <a class="nav-link" href="signup.html" target="_new"> Sign Up</a>
                 </li>
               </ul>
           </div>
@@ -275,19 +265,19 @@
       <div class="saad">
         <ul class="list">
           <li class="m1">
-            <a href="http://127.0.0.1:8000"class="anchor1" target="new">Electronics</a>
+            <a href=""class="anchor1">Electronics</a>
           </li>
           <li class="m1">
-            <a href="http://127.0.0.1:8000/accessories" class="anchor1" target="new">Accessories</a>
+            <a href="accessories.html" class="anchor1">Accessories</a>
           </li>
           <li class="m1">
-             <a href="http://127.0.0.1:8000/clothing" class="anchor1" target="new"> Clothing</a>
+             <a href="clothing.html" class="anchor1"> Clothing</a>
           </li>
           <li class="m1">
-            <a href="http://127.0.0.1:8000/furniture" class="anchor1" target="new"> Furniture</a>
+            <a href="furniture.html" class="anchor1"> Furniture</a>
          </li>
          <li class="m1">
-          <a href="http://127.0.0.1:8000/homeappliances" class="anchor1" target="new">Home Appliances</a>
+          <a href="home appliances.html" class="anchor1">Home Appliances</a>
       </div>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
@@ -298,23 +288,24 @@
         <br>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://img.freepik.com/premium-photo/clothing-accessories-men-women-ready-travel-life-style_11304-1404.jpg?w=2000" width="100%" height="700px"  alt="...">
+            <img src="img1.jpg" width="100%" height="600px"  alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <a href="http://127.0.0.1:8000/clothing" class="gallery1"> <h5 class="gallery1">Grab upto 30% offer on latest products </h5></a>
+                <a href="clothing.html" class="gallery1"> <h5 class="gallery1">Grab upto 30% offer on latest products </h5></a>
                 <a href="clothing.html" class="gallery1"> <p class="gallry1"> Fashion for men and women</p></a>
               
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://st4.depositphotos.com/17069286/21571/i/1600/depositphotos_215715040-stock-photo-used-modern-electronic-gadgets-daily.jpg" width="100%" height="600px" alt="...">
+            <img src="i.webp" width="100%" height="600px" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <a href="http://127.0.0.1:8000" class="gallery2"> <h5 class="gallery2"> Electronic devices up for grabs</h5> </a>
+                <a href="shope .html" class="gallery2"> <h5 class="gallery2"> Electronic devices up for grabs</h5> </a>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://res.cloudinary.com/purnesh/image/upload/f_auto/v1613645764/131613645763383.jpg" width="100%" height="600px">
+            <img src="R (2).jpg" width="100%" height="600px">
             <div class="carousel-caption d-none d-md-block">
-                <a href="http://127.0.0.1:8000/furniture" class="gallery1"><h5 class="gallery1">Furniture at lowest prices </h5></a>
+                <a href="furniture.html" class="gallery1"><h5 class="gallery1">Furniture at lowest prices </h5></a>
+              <p>Some representative placeholder content for the third slide.</p>
             </div>
           </div>
         </div>
@@ -331,18 +322,17 @@
         Recommended for you
       </h1>
       <div class="products1">
-        <a class="anchor2" target="_new" href="http://127.0.0.1:8000/product1"><img class="products" src="https://m.media-amazon.com/images/I/81Rgr-2YPiL._SL1500_.jpg" alt=""> <p class="productp">Acer Nitro 5 Gaming Laptop/ 11th Gen Intel Core i5-11400H Processor 6 core/ 15.6"(39.6cms) FHD 144 Hz Display (8GB/512GB SSD/GTX 1650 Graphics/Windows...</p></a>
+        <a class="anchor2" target="_new" href="https://www.amazon.in/dp/B09X7SXPKC/ref=cm_sw_r_apa_i_dl_5868EN7TJVA3M6QDKZ5T_0"><img class="products" src="images/Product1.jpg" alt=""> <p class="productp">Acer Nitro 5 Gaming Laptop/ 11th Gen Intel Core i5-11400H Processor 6 core/ 15.6"(39.6cms) FHD 144 Hz Display (8GB/512GB SSD/GTX 1650 Graphics/Windows...</p></a>
       </div> <div class="products1">
-        <a class="anchor2" target="_new" href="http://127.0.0.1:8000/product2"><img class="products" src="https://m.media-amazon.com/images/I/61yggJpMNTL._SL1500_.jpg" alt=""> <p class="productp">boAt Immortal IM-200 7.1 Wired Over Ear Headphones Channel USB Gaming Headphone with RGB Breathing LEDs & 50mm Drivers with mic (Active Black)</p></a>
-        
+        <a class="anchor2" target="_new" href="https://www.amazon.in/dp/B08WHTPNVZ/ref=cm_sw_r_apa_i_GPE66XC45F0B8WPB7A18_2"><img class="products" src="images/product2.jpg" alt=""> <p class="productp">boAt Immortal IM-200 7.1 Wired Over Ear Headphones Channel USB Gaming Headphone with RGB Breathing LEDs & 50mm Drivers with mic (Active Black)</p></a>
        
       </div>
       <div class="products1">
-        <a class="anchor2" target="_new" href="http://127.0.0.1:8000/product3"><img class="products" src="https://m.media-amazon.com/images/I/51EAQs9-rvL._SL1500_.jpg" alt=""> <p class="productp">boAt Airdopes 181 Bluetooth Truly Wireless in Ear Earbuds with Mic, ENx, Tech, Beast, Mode (Low Latency Upto 60ms) for Gaming, ASAP, Charge, 20H Playtime, Bluetooth v5.2, IPX4 & IWP (Carbon Black)</p></a>
+        <a class="anchor2" target="_new" href="https://www.amazon.in/dp/B09NYKZ7M8/ref=cm_sw_r_apa_i_XA1XZ2T7EQQRZXWQ80T8_0"><img class="products" src="images/product3.jpg" alt=""> <p class="productp">boAt Airdopes 181 Bluetooth Truly Wireless in Ear Earbuds with Mic, ENx, Tech, Beast, Mode (Low Latency Upto 60ms) for Gaming, ASAP, Charge, 20H Playtime, Bluetooth v5.2, IPX4 & IWP (Carbon Black)</p></a>
 
       </div>
       <div class="products1">
-        <a class="anchor2" target="_new" href="http://127.0.0.1:8000/product4"><img class="products" src="https://m.media-amazon.com/images/I/6130fFi1jXL._SL1400_.jpg" alt=""> <p class="productp">Croma 20 Litres Solo Microwave Oven (CRAM2026, Black)</p></a>
+        <a class="anchor2" target="_new" href="https://www.amazon.in/dp/B094NTVMVS/ref=cm_sw_r_apa_i_F9QBMBK4V543QD734C9V_0?_encoding=UTF8&psc=1"><img class="products" src="images/product4.jpg" alt=""> <p class="productp">Croma 20 Litres Solo Microwave Oven (CRAM2026, Black)</p></a>
 
       </div><br><br>
 
@@ -371,3 +361,7 @@
 
 </body>
 </html>
+
+
+
+    
