@@ -1,0 +1,113 @@
+
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            div{
+                border: groove;
+                width: 450px;
+                height: 380px;
+                margin: auto;
+                padding: 10px;
+                background-color: grey;
+                border-radius: 5px;
+            }
+            body{
+                background-color: lightblue;
+            }
+            h3{
+                text-align: center;
+                margin-top: 80px;
+                font-size: 30px;
+                color: black;
+                font-family:'Times New Roman', Times, serif
+            }
+            input[type="text"],input[type="password"],input[type="varchar"]{
+                width: 450px;
+                height: 40px;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                background-color: white;
+                font-size: 20px;
+                
+            }
+            input[type="reset"],input[type="submit"]{
+                width: 450px;
+                height: 30px;
+                border-radius: 5px;
+                font-size: 20px;
+                font-weight: bold; 
+                background-color: black;
+                color: white;
+               
+            }
+            span{
+                color:black;
+                font-size: 25px;
+            }
+            input[type="submit"]:hover{
+                background-color: green;
+            }
+            input[type="reset"]:hover{
+                background-color: red;
+            }
+            .tag{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-style: italic;
+                padding-bottom: 10px;
+            }
+            .tag:hover{
+                text-decoration: underline;
+                color: red;
+            }
+            .form{
+                width: 450px;
+                height: 40px;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                background-color: white;
+                font-size: 20px;
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+        <h3>
+            Enter the required details
+        </h3>
+        <div>
+            <form>
+                <span>
+                    Enter Pin No:
+                </span>
+                <input type="varchar"><br><br>
+                
+               <span>Course Code no:  </span>  
+               <select name="" id="" class="form">
+                    <option value="C18">C18
+                        </option>
+                    <option value="C21"> C21</option>                
+                </select><br><br>
+                <span>Exam Month:  </span>  
+                <select name="" id="" class="form">
+                    <option value=""> Nov 2022
+                        </option>
+                    <option value="C21"> May 2022</option>                
+                    <option value="C21"> May 2022</option>  
+                    <option value="C21"> May 2022</option>  
+                    <option value="C21"> May 2022</option>  
+                </select><br><br>
+                <input type="submit" value="Submit"><br><br>
+                <input type="reset" value="Clear" class="clear">
+            </form>
+        </div>
+    </body>
+</html>
